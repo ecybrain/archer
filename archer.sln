@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "archer", "archer\archer.vcxproj", "{68C0A10E-B353-4702-B75D-D104E81E56AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{6A6410A4-EE80-4057-B3AE-1959AAEA288D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1F136979-DA0B-478E-8EE7-49ABA78D28EF}"
+	ProjectSection(SolutionItems) = preProject
+		common\test\TestSuite.cpp = common\test\TestSuite.cpp
+		common\test\TestSuite.h = common\test\TestSuite.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{C67DD3E6-8BA1-44E3-8F52-8E8EDDC63840}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{BBB0095F-C957-4133-A94B-E15B86A883A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cpp", "cpp", "{6568655D-3368-4810-B677-6CDCD7500EDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gi", "gi", "{F8F13B6B-EB92-4E45-9411-E9FD51B1E198}"
+	ProjectSection(SolutionItems) = preProject
+		common\cpp\gi\gienv.cpp = common\cpp\gi\gienv.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gi", "gi", "{EEB7D018-C6A9-4E01-8858-4671814F370D}"
+	ProjectSection(SolutionItems) = preProject
+		common\include\gi\dimension.h = common\include\gi\dimension.h
+		common\include\gi\gienv.h = common\include\gi\gienv.h
+		common\include\gi\matrix.h = common\include\gi\matrix.h
+		common\include\gi\point.h = common\include\gi\point.h
+		common\include\gi\polynomial.h = common\include\gi\polynomial.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C0A10E-B353-4702-B75D-D104E81E56AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68C0A10E-B353-4702-B75D-D104E81E56AE}.Debug|Win32.Build.0 = Debug|Win32
+		{68C0A10E-B353-4702-B75D-D104E81E56AE}.Debug|Win32.Deploy.0 = Debug|Win32
+		{68C0A10E-B353-4702-B75D-D104E81E56AE}.Release|Win32.ActiveCfg = Release|Win32
+		{68C0A10E-B353-4702-B75D-D104E81E56AE}.Release|Win32.Build.0 = Release|Win32
+		{68C0A10E-B353-4702-B75D-D104E81E56AE}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F136979-DA0B-478E-8EE7-49ABA78D28EF} = {6A6410A4-EE80-4057-B3AE-1959AAEA288D}
+		{C67DD3E6-8BA1-44E3-8F52-8E8EDDC63840} = {6A6410A4-EE80-4057-B3AE-1959AAEA288D}
+		{BBB0095F-C957-4133-A94B-E15B86A883A0} = {6A6410A4-EE80-4057-B3AE-1959AAEA288D}
+		{6568655D-3368-4810-B677-6CDCD7500EDA} = {6A6410A4-EE80-4057-B3AE-1959AAEA288D}
+		{EEB7D018-C6A9-4E01-8858-4671814F370D} = {C67DD3E6-8BA1-44E3-8F52-8E8EDDC63840}
+		{F8F13B6B-EB92-4E45-9411-E9FD51B1E198} = {6568655D-3368-4810-B677-6CDCD7500EDA}
+	EndGlobalSection
+EndGlobal
