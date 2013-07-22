@@ -1,4 +1,4 @@
-p0#ifndef __GI_MATRIX_H__
+#ifndef __GI_MATRIX_H__
 #define __GI_MATRIX_H__
 
 namespace archer
