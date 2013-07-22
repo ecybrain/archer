@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// namespace archer::gi
+//     geometry interface
+// gi.h
+//     define geometry interface for outer usage
+//
+// authored by: Jimmy
+//
+////////////////////////////////////////////////////////////////////////////////
+
+#include "gienv.h"
+
+#include "point.h"
+
+#include "matrix.h"
+#include "polynomial.h"
+#include "dimension.h"

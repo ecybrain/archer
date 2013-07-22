@@ -2,6 +2,11 @@
 //
 // namespace archer::gi
 //     geometry interface
+// gienv.cpp
+//     set up geometry environment for archer::gi
+//
+// authored by: Jimmy
+//
 ////////////////////////////////////////////////////////////////////////////////
 
 #ifdef gi_using_torlerant_control
